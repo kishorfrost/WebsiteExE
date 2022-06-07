@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+body{
+    font-family: Roboto , sans-serif;
+    font-weight: bold;
+}
+.title{
+    font-size: 60px;
+    color: aqua;
+}
+.page{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+.sidebar{
+    flex:1;
+    background-color: skyblue;
+}
+.maincontent{
+    flex:2;
+    background-color: whitesmoke;
+    padding: 20px;
+}
